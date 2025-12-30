@@ -18,7 +18,17 @@ AI イラストと分かりづらいツイートをやめてくれ。全員が�
 
 </details>
 
-# how to build
+## how to build
 
 > [!Important]
 > ビルドする人なんて漢字読める人しかいないだろうからここからふりがなふってません。
+
+### 必要なもの
+
+- Node.js
+- pnpm
+
+```sh
+pnpm install typescript @types/chrome vite
+pnpm build
+```
