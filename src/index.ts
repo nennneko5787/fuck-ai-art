@@ -82,10 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const seen = new WeakSet();
 
   function scan() {
-    const description = document.querySelector(
-      'div[data-testid="UserDescription"]'
-    );
-
     document.querySelectorAll("article").forEach(async (article) => {
       if (seen.has(article)) return;
       seen.add(article);
